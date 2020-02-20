@@ -1,17 +1,19 @@
-## Welcome to GitHub Pages
+## Hello, I'm Chau Nguyen
 
-You can use the [editor on GitHub](https://github.com/cnguyen184/cnguyen184.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I'm recently graduated Computer Science from University of Ottawa and currently a Quality Control Automation at [Sutrix Solution](https://sutrixgroup.com/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Projects**
+**Cat Collector** 
 
-### Markdown
+**_Description_**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The mobile application for which we are developing a prototype is an Android augmented reality 
+cat collecting game directed at the casual game market in an effort to expand society's recognition of 
+AR technology in a fun, informal environment. As a general reference, our application is a variant of the popular mobile game - Pokemon Go
 
-```markdown
-Syntax highlighted code block
+**_Media_**
+![](https://user-images.githubusercontent.com/28903872/74958899-3d36e480-543c-11ea-8274-b2a36462f6d7.PNG)
 
-# Header 1
 ## Header 2
 ### Header 3
 
@@ -23,7 +25,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![](https://user-images.githubusercontent.com/28903872/74958899-3d36e480-543c-11ea-8274-b2a36462f6d7.PNG)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
