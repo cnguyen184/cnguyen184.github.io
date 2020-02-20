@@ -5,14 +5,27 @@ I'm recently graduated Computer Science from University of Ottawa and currently 
 **Projects**
 **Cat Collector** 
 
-**_Description_**
+**_DESCRIPTION_**
 
 The mobile application for which we are developing a prototype is an Android augmented reality 
 cat collecting game directed at the casual game market in an effort to expand society's recognition of 
 AR technology in a fun, informal environment. As a general reference, our application is a variant of the popular mobile game - Pokemon Go
 
-**_Media_**
+**_MEDIA_**
+
+
 ![](https://user-images.githubusercontent.com/28903872/74958899-3d36e480-543c-11ea-8274-b2a36462f6d7.PNG)
+
+![](https://user-images.githubusercontent.com/28903872/74959714-aff48f80-543d-11ea-8a0a-58906ad65b8a.PNG)
+
+![](https://user-images.githubusercontent.com/28903872/74959750-c0a50580-543d-11ea-87d6-d91e5d52d475.PNG)
+
+**_MAIN FEATURES_**
+1. Create a collection of cat by catching them
+2. Pet cats
+3. Feed cats
+
+You can view the source code [here](https://github.com/cnguyen184/catcollector.github.io)
 
 ## Header 2
 ### Header 3
