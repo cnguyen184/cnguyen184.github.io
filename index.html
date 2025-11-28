@@ -3,147 +3,198 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chau Nguyen | QA Automation & Developer</title>
+  <title>Chau Nguyen · Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: #f8f9fa;
-      color: #333;
+      font-family: "Inter", sans-serif;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: white;
+      border-bottom: 1px solid #e3e3e3;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 700;
     }
 
     .container {
       max-width: 900px;
-      margin: 0 auto;
+      margin: auto;
       padding: 40px 20px;
     }
 
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    h1 {
-      font-size: 40px;
-      margin-bottom: 10px;
-      font-weight: 700;
-      color: #222;
+    section {
+      margin-bottom: 50px;
     }
 
     h2 {
-      margin-top: 40px;
       font-size: 26px;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 8px;
-      color: #444;
+      margin-bottom: 10px;
+      color: #333;
     }
 
     p {
-      line-height: 1.6;
-      font-size: 17px;
+      margin: 8px 0;
+      font-size: 16px;
     }
 
     .tagline {
       font-size: 18px;
-      color: #555;
-      margin-bottom: 20px;
+      color: #666;
+      margin-top: -10px;
     }
 
-    .section {
-      margin-top: 30px;
-    }
-
-    ul {
-      margin-left: 20px;
-      line-height: 1.7;
-    }
-
-    .card {
-      padding: 20px;
+    .section-box {
       background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      padding: 25px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      margin-top: 15px;
+    }
+
+    .skills-list, .exp-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .skills-list li,
+    .exp-list li {
+      margin-bottom: 8px;
+    }
+
+    .project-card {
+      padding: 20px;
+      border: 1px solid #ddd;
+      background: white;
+      border-radius: 10px;
       margin-bottom: 20px;
     }
 
-    .links a {
-      display: inline-block;
-      margin-right: 15px;
+    .footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+      font-size: 14px;
+    }
+
+    a {
+      color: #0070f3;
       text-decoration: none;
-      color: #0366d6;
       font-weight: 600;
     }
 
-    footer {
-      margin-top: 50px;
-      text-align: center;
-      font-size: 14px;
-      color: #777;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
+
+  <header>
+    <h1>Chau Nguyen</h1>
+  </header>
+
   <div class="container">
-    <header>
-      <h1>Chau Nguyen</h1>
-      <div class="tagline">
-        Senior Software QA Analyst · QA Automation · Full-Stack Learner  
-      </div>
 
-      <div class="links">
-        <a href="https://github.com/cnguyen184" target="_blank">GitHub Profile</a>
-        <a href="https://www.linkedin.com/in/chau-nguyen-4a5a85190" target="_blank">LinkedIn</a>
-      </div>
-    </header>
-
-    <div class="section card">
+    <!-- Intro -->
+    <section>
       <h2>About Me</h2>
-      <p>
-        A self-motivator and opportunity seeker with <strong>5+ years of experience</strong> 
-        in Software Testing & Development across multiple industries, including Insurance, 
-        Healthcare, Security, and Engineering.  
-      </p>
-      <p>
-        With knowledge from both the developer and QA side, and a passion for technology, 
-        I aim to become an expert and an inspiration for women in tech.
-      </p>
-      <p>
-        As a hobby, I recently started coding personal <strong>web projects</strong> to sharpen my full-stack
-        skills — including a movie website built with <strong>Next.js + PostgreSQL</strong>.
-      </p>
-    </div>
+      <p class="tagline">QA Automation • Software Developer • Based in Finland</p>
 
-    <div class="section card">
+      <div class="section-box">
+        <p>
+          I am a self-motivated Software QA & Developer with <b>5+ years of experience</b> across Insurance, Healthcare, Engineering, and Security industries.
+        </p>
+
+        <p>
+          With strong experience from both sides — <b>development and testing</b> — I bring balanced technical and quality engineering expertise.
+        </p>
+
+        <p>
+          Recently, I have been building web projects to refresh and sharpen my development skills, including a custom movie web platform built with Next.js + PostgreSQL.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h2>Experience</h2>
+      <div class="section-box">
+        <ul class="exp-list">
+          <li><b>QC Automation Analyst – Sutrix Solutions</b> (2024 – Present)</li>
+          <li><b>QA Automation Analyst – DXC Technology</b> (2022 – 2024)</li>
+          <li><b>Software Developer Intern – Various Projects</b></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
       <h2>Skills</h2>
-      <ul>
-        <li>Test Automation: Katalon Studio, Selenium</li>
-        <li>Programming: Java, Python, C++, JavaScript</li>
-        <li>Web: HTML, CSS, React/Next.js, REST API</li>
-        <li>Tools: Git, Bitbucket, Jira, TestRail</li>
-        <li>Database: MySQL, PostgreSQL</li>
-      </ul>
-    </div>
+      <div class="section-box">
+        <ul class="skills-list">
+          <li>Automation Testing (Katalon, Selenium)</li>
+          <li>Java, Python, C++, JavaScript</li>
+          <li>HTML, CSS, React, Next.js</li>
+          <li>MySQL, PostgreSQL</li>
+          <li>Git, Bitbucket, Jira, Agile/Scrum</li>
+        </ul>
+      </div>
+    </section>
 
-    <div class="section card">
-      <h2>Highlighted Projects</h2>
+    <!-- Projects -->
+    <section>
+      <h2>Projects</h2>
 
-      <h3>🎮 Cat Collector — Android AR Game</h3>
-      <p>An AR mobile game prototype similar to Pokémon Go, developed using Java and ARCore.</p>
+      <div class="project-card">
+        <h3>🎬 Movie Web Platform</h3>
+        <p>A personal project where I built a mini-Netflix style website using Next.js, Prisma, PostgreSQL, and TMDB API.</p>
+        <a href="https://github.com/your_repo_link" target="_blank">View Source Code →</a>
+      </div>
 
-      <h3>🧵 Cloth Deformation Simulation — Python</h3>
-      <p>Mass-spring system deformation using explicit, implicit, and verlet integration methods.</p>
+      <div class="project-card">
+        <h3>🐱 Cat Collector – AR Android Game</h3>
+        <p>Augmented reality cat-collecting mobile game inspired by Pokémon Go.</p>
+      </div>
 
-      <h3>🎬 Movie Web App — Next.js + PostgreSQL</h3>
-      <p>A personal project where users can browse movies, sign up, log in, and receive recommendations.</p>
-    </div>
+      <div class="project-card">
+        <h3>🧵 Mass-Spring Deformation Simulation</h3>
+        <p>Interactive cloth deformation visualization using PyOpenGL, NumPy & Pygame.</p>
+      </div>
 
-    <footer>
-      © 2025 Chau Nguyen — All Rights Reserved
-    </footer>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2>Contact</h2>
+      <div class="section-box">
+        <p>Email: <a href="mailto:chau.nguyen184@gmail.com">chau.nguyen184@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/cnguyen184" target="_blank">github.com/cnguyen184</a></p>
+      </div>
+    </section>
 
   </div>
+
+  <div class="footer">
+    © 2025 Chau Nguyen — All Rights Reserved
+  </div>
+
 </body>
 </html>
